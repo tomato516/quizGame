@@ -1,0 +1,28 @@
+QuestionType, QuestionDifficulty, Question, CorrectAnswer, Answer2, Answer3, Answer4
+HTML, 100, What does HTML stand for?, Hyper Text Markup Language, Hyperlinks and Text Markup Language, How to Make Lasagna, Hotmail
+HTML, 100, How many tags are in a typical element?, 2, 1, 3, 4
+HTML, 100, Who makes the Web Standards?, World Wide Web Consortium, Microsoft, Apple, Mozilla
+HTML, 200, What is the correct sequence of HTML tags for starting a webpage?, HTML head title, HTML title head, title HTML head, head title HTML
+HTML, 200, What is the correct HTML tag for the largest heading?, h1, head, h6, header
+HTML, 200, What is an attribute of the form tag?, Both, Method, Action, None of these
+HTML, 300, Which of the following attributes of text box control allow to limit the maximum character?, maxlength, maxsize, len, None of these
+HTML, 300, HTML is a subset of..., SGML, SGMT, SGMD, None of these
+HTML, 300, The latest HTML standard is..., HTML 5.0, HTML 7.0, SGML, XML
+CSS, 100, What does CSS stand for?, Cascading Style Sheets, Creative Style Sheets, Custom Style Sheets, Component Styling Sheet
+CSS, 100, What is NOT a way to apply CSS to a HTML file? , View, Inline, External, Internal 
+CSS, 100, Which of the following properties is used to control the repetition of an image in the background, background-repeat, background-image, background-position, repeat-background
+CSS, 200, Which of the following defines 1% of viewport height?, vh, px, em, vw
+CSS, 200, Which of the following properties is used to control the flow and formatting of text?, white-space, text-shadow, text-transform, text-bubble 
+CSS, 200, Which of the following selectors selects an element that has no children?, empty, nochild, no-child, inherited
+CSS, 300, CSS is created and maintained by?, W3C, WWW, W3D, WWE
+CSS, 300, When was CSS developed?, 1996, 1999, 1991, 2001 
+CSS, 300, What is a disadvantage of CSS?, Browser Complatibility, Low Performance, Low Security, CSS is Perfect
+PHP, 100, What does PHP stand for?, Hypertext Preprocessor, Pinehapple, Programming Hyper Programs, Pig Hamper Pig
+PHP, 100, How do you initialize a variable?, $VariableName = ..., VariableName = ..., let VariableName = ..., const VariableName = ...
+PHP, 100, PHP files have a default file extension of... , .php, .p, .py, .phpadmin
+PHP, 200, Which of the following type of variables are named and indexed collections of other values?, Arrays, Objects, Resources, Strings
+PHP, 200, PHP is a _______ typed language., Loosely, Server, User, System
+PHP, 200, How are PHP files accessed?, Through a Web Server, Through a Web Browser, Through HTML files, None of these
+PHP, 300, Who is known as the father of PHP, Rasmus Lerdorf, Louis Henry, Willam Makepiece, Drek Kolkevi 
+PHP, 300, Which of the following method of Exception class returns the code of exception when error occured?, getCode(), getLine(), getErr(), getError()
+PHP, 300, A function in PHP which starts with __ (double underscore) is known as..., Magic Function, Built-in Function, Default Function, User Defined Function

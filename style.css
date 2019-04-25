@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: rgb(180, 70, 70);
+	font-family: "Roboto", sans-serif;
+	line-height: 1.4;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 4rem auto;
+}
+
+.container2 {
+	max-width: 500px;
+	margin: 4rem auto;
+}
+
+#navbar {
+	display: flex;
+	position: sticky;
+	top: 0;
+	background: #333333;
+	color: #ffffff;
+	justify-content: space-between;
+	z-index: 1;
+	padding: 1rem;
+	margin-top: -2rem;
+}
+
+#navbar ul {
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+
+#navbar ul li a {
+	color: #ffffff;
+	padding: 0.75rem;
+	margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+	background: #8f3838;
+	border-radius: 5px;
+}
+
+#navbar1 {
+	display: flex;
+	position: sticky;
+	top: 0;
+	background: #333333;
+	color: #ffffff;
+	justify-content: space-between;
+	z-index: 1;
+	padding: 1rem;
+}
+
+#navbar1 ul {
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+
+#navbar1 ul li a {
+	color: #ffffff;
+	padding: 0.75rem;
+	margin: 0 0.25rem;
+}
+
+#navbar1 ul li a:hover {
+	background: #8f3838;
+	border-radius: 5px;
+}
+
+#showcase {
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+
+#showcase .gameboard h1 {
+	text-align: center;
+	color: white;
+	margin-bottom: 1rem;
+}
+
+#showcase .gameboard hr {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.gamequestion fieldset {
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	padding: 1rem;
+}
+
+.gamequestion legend {
+	background-color: rgb(51, 51, 51);
+	color: white;
+	padding: 3px 6px;
+	margin: 0 auto;
+	border-radius: 8px;
+}
+
+.gamequestion input {
+	margin: 0.4rem;
+}
+
+.gamequestion button {
+	display: block;
+	padding: 0.5rem;
+	margin-top: 0.25rem;
+	margin-left: 0.4rem;
+	border: none;
+	color: #ffffff;
+	background: #333;
+	border-radius: 5px;
+}
+
+.gamequestion button:hover {
+	background: #8f3838;
+	border-radius: 5px;
+}
+
+.gamequestion hr {
+	opacity: 0.5;
+}
+
+table {
+	width: 100%;
+	max-width: 600px;
+	height: 320px;
+	border-collapse: collapse;
+	border: 1px solid #8f3838;
+	margin: 2rem auto;
+	background: white;
+	box-shadow: inset 0px 1px 2px #bd5656;
+}
+
+th {
+	background: rgb(180, 70, 70);
+	height: 54px;
+	width: 25%;
+	font-weight: lighter;
+	text-shadow: 0 1px 0 #8f3838;
+	color: white;
+	border: 1px solid #8f3838;
+	box-shadow: inset 0px 1px 2px #bd5656;
+	transition: all 0.2s;
+}
+
+tr {
+	border-bottom: 1px solid #ccc;
+}
+
+tr:last-child {
+	border-bottom: 0px;
+}
+
+td {
+	border-right: 1px solid #ccc;
+	padding: 0.8rem;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+}
+
+td:last-child {
+	border-right: 0px;
+}
+
+td input {
+	font-size: 14px;
+	background: none;
+	outline: none;
+	border: 0;
+	display: table-cell;
+	height: 100%;
+	width: 100%;
+}
+
+table tfoot tr td {
+	font-weight: bold;
+}
+
+table tfoot tr:last-child {
+	border-bottom: none;
+}
+
+table input {
+	opacity: 0;
+	position: absolute;
+	left: -999999;
+	cursor: pointer;
+}
+
+.leaderboard {
+	text-align: center;
+}
+
+.leaderboard a {
+	background: #333;
+	text-decoration: none;
+	color: white;
+	padding: 0.75rem;
+}
+
+.form-wrap {
+	background-color: #333;
+	padding: 0.5rem;
+	border-radius: 8px;
+	color: white;
+}
+
+.form-wrap h1,
+.form-wrap p {
+	text-align: center;
+}
+
+.form-wrap .form-group {
+	padding: 0.4rem;
+	min-width: 432px;
+}
+
+.form-wrap .form-group input {
+	width: 100%;
+}
+
+.form-wrap button {
+	display: block;
+	width: 60%;
+	background-color: #bd5656;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+	margin: 1rem auto;
+}
+
+.form-wrap button:hover {
+	background: #8f3838;
+}
+
+.container2 {
+	background: white;
+}
+
+#failed {
+	background: #333;
+	text-decoration: none;
+	color: white;
+	padding: 0.75rem;
+	text-align: center;
+	border-radius: 5px;
+	margin: 1rem auto;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Log In</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<nav id="navbar1">
+				<h1 class="logo">
+					Quiz Game
+				</h1>
+				<ul>
+					<li><a href="leaderboard.php">Leaderboard</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="container2">
+			<div class="form-wrap">
+				<h1>Login</h1>
+				<p>Enter Username and Password and choose a submit to begin.</p>
+				<form action="login.php" method="POST">
+					<div class="form-group">
+						<label for="username">Username: </label>
+						<input
+							type="text"
+							name="username"
+							placeholder="Username"
+							autofocus
+							required
+						/>
+					</div>
+					<div class="form-group">
+						<label for="password">Password :</label>
+						<input
+							type="password"
+							name="password"
+							placeholder="*********"
+							required
+						/>
+					</div>
+					<button class="btn">Submit</button>
+					<button class="btn" formaction="signup.php" formmethod="POST">
+						Sign Up
+					</button>
+					<button class="btn" formaction="leaderboard.php" formmethod="POST">
+						Leaderboard
+					</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

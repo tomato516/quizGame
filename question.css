@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(180, 70, 70);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+.container {
+    width: 600px;
+    margin: 4rem auto;
+}
+
+#showcase {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+#showcase .gameboard h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+#showcase .gameboard hr {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#showcase .stripes {
+    overflow: hidden;
+    top: 0;
+    grid: repeat(5,200px)/repeat(10,1fr);
+    transform-origin: 0;
+    background: linear-gradient(#b15050,#c77070 10%,#eb9393 38%,#277527 48%,#408E40 62%);
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 60%;
+    display: grid;
+    transform: skewY(-12deg);
+}
+
+.stripes :nth-child(1) {
+    grid-column: span 4;
+    background: linear-gradient(0.25turn,#b15050,#c77070);
+}
+
+.stripes :nth-child(2) {
+    grid-area: 2 / span 10 / auto / -1;
+    background: linear-gradient(0.25turn,#b15050,#c77070);
+}
+
+.stripes :nth-child(3) {
+    grid-area: 3 / span 3 / auto / -1;
+    background: linear-gradient(0.25turn,#b15050,#c77070);
+}
+
+.stripes :nth-child(4) {
+    grid-row: 4;
+    grid-column: span 7;
+    background: linear-gradient(0.25turn,#b15050,#c77070);
+}
